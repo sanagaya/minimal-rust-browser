@@ -1,0 +1,12 @@
+[package]
+name = "minimal-browser-engine-rust"
+version = "0.0.1"
+authors = ["Sana Gaya"]
+
+[[bin]]
+name = "minimal-browser-engine-rust"
+path = "src/main.rs"
+
+[dependencies]
+getopts = "0.2.21"
+image = "0.14"
